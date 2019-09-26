@@ -1,0 +1,183 @@
+#building-slider {
+    width: 100%;
+    background-color: #565656;
+    padding: 100px 0;
+
+    // Slider color 565656
+    
+
+
+    .wrapper {
+        max-width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        height: 50vh;
+
+
+        .buttons-wrapper {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            margin-right: 10px;
+
+
+            h4 {
+                color: white;
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            button {
+                outline: none;
+                border: none;
+                font-size: 80px;
+                background: transparent;
+                transition: 0.3s ease all;
+                cursor: pointer;
+                margin: 20px;
+                color: white;
+            }
+
+            button:hover {
+                transition: 0.2 ease all;
+                color: #59BAFC;
+                cursor: pointer;
+            }
+
+        }
+
+        .slider-wrapper {
+            flex: 9;
+            height: 100%;
+
+            // .floor {
+            //     height: 500px;
+            // }
+
+            .floor:not(:first-of-type) {
+                display: none;
+            }
+
+        
+            .floor-1 {
+
+                // Hover color 59BAFC
+                // Basi Color 3D3D3D
+                
+                // slider_floor_1_room_1
+                #slider_floor_1_room_1 polygon,
+                #slider_floor_1_room_2 polygon,
+                #slider_floor_1_room_3 polygon,
+                #slider_floor_1_room_4 polygon,
+                #slider_floor_1_room_5 polygon,
+                #slider_floor_1_room_6 polygon {
+                    transition: 0.5s ease all;
+                    fill:  #313131 !important;
+                    cursor: pointer;
+                }
+
+                #slider_floor_1_room_1:hover polygon,
+                #slider_floor_1_room_2:hover polygon,
+                #slider_floor_1_room_3:hover polygon,
+                #slider_floor_1_room_4:hover polygon,
+                #slider_floor_1_room_5:hover polygon,
+                #slider_floor_1_room_6:hover polygon {
+                    fill: rgba(89, 187, 252, 0.705) !important;
+                    transition: 0.5s ease all;
+                }
+
+                #slider_floor_1_room_5 path {
+                    transition: all 0.5s ease;
+                    fill:  #313131 !important;
+                }
+
+
+                #slider_floor_1_room_5 path:hover{
+                    fill: rgba(89, 187, 252, 0.705) !important;
+                    transition: 0.4s ease all;
+                    cursor: pointer;
+                }
+
+                #slider_floor_1_room_4 rect {
+                    transition: all 0.5s ease;
+                    fill:  #313131 !important;
+                }
+
+
+                #slider_floor_1_room_4 rect:hover{
+                    fill: rgba(89, 187, 252, 0.705) !important;
+                    transition: 0.4s ease all;
+                    cursor: pointer;
+                }
+
+
+             }
+
+             .floor-2 {
+
+                #slider_floor2_rooms rect {
+                    transition: all 0.5s ease;
+                    cursor: pointer;
+                }
+                
+                #slider_floor2_rooms rect:hover {
+                    fill: rgba(89, 187, 252, 0.705) !important;
+                    transition: 0.4s ease all;
+                    cursor: pointer;
+                }
+
+                #slider_floor2_rooms polygon {
+                    transition: all 0.5s ease;
+                    cursor: pointer;
+                }
+                
+                #slider_floor2_rooms polygon:hover {
+                    fill: rgba(89, 187, 252, 0.705) !important;
+                    transition: 0.4s ease all;
+                    cursor: pointer;
+                }
+
+             }
+
+             .floor-3 {
+
+                //  height: 500px; 
+
+                 .floor-3-wrapper {
+                     text-align: center;
+                 }
+
+                 .floor-3-wrapper svg {
+                    width: 60%;
+                    height: auto;
+                    max-height: 400px;
+                 }
+
+                 rect, 
+                 polygon {
+                     fill: #313131;
+                     transition: all 0.3 ease;
+                     cursor: pointer;
+
+                 }
+
+                 rect:hover,
+                 polygon:hover {
+                    fill: rgba(89, 187, 252, 0.705) !important;
+                    transition: 0.4s ease all;
+                    cursor: pointer;
+                 }
+
+             }
+        }
+    }
+
+    
+}
+
+@media screen and (max-width: 767.98px){
+      #building-slider .wrapper .slider-wrapper .floor-3 .floor-3-wrapper svg {
+        max-height: 250px;
+    }
+}

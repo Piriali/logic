@@ -1,0 +1,40 @@
+#location-map .about-us-wrapper {
+    padding: 20px;
+    position: relative;
+
+    button.reg-button {
+        position: absolute;
+        right: -20px;
+        transform: rotate(-90deg);
+        top: 40px;
+        padding: 10px;
+        outline: none;
+        border: none;
+        color:  white;
+        background-color: #59BAFC;
+        border-radius: 2px;
+        cursor: pointer;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        transition: all 0.3 ease;
+
+
+        &:hover {
+            transition: all 0.3s ease;
+            background-color: rgb(132, 204, 252);
+        }
+
+    }
+
+    
+
+
+    h1 {
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    p {
+        text-align: justify;
+    }
+    
+}

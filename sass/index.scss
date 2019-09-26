@@ -1,0 +1,26 @@
+
+
+// Load Fonts
+@import"./base/fonts";
+
+
+// Load components
+@import"./base/config";
+@import "./components/nav";
+@import "./components/building";
+@import "./components/buildingSlider";
+@import "./components/popup";
+@import "./components/map";
+@import "./components/about";
+@import "./components/footer";
+@import "./components/media";
+@import "./components/aboutNew";
+
+
+.custom-font {
+  font-family: 'MyFont', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
+}
+
+

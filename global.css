@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: "MyFont";
+  src: url("fonts/GA-dzen-Regular.otf");
+  src:
+    url("fonts/Sandro-Regular.ttf"),
+    url("fonts/GA-dzen-Regular.otf")
+};

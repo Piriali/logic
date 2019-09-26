@@ -1,0 +1,326 @@
+/*Media*/
+/* Large devices (desktops, less than 1200px)*/
+@media screen and (max-width: 1199.98px) {
+
+	/*Footer*/
+
+	.footer{
+		padding: 50px 25px;
+	}
+	.details-title{
+		font-size: 22px;
+		margin-bottom: 0px;
+	}
+	#send-email{
+		font-size: 22px;
+	}
+	.contact-details a {
+		font-size: 18px;
+	}
+
+	/*-----------*/
+
+	/*Building*/
+
+	#building {
+    	margin-top: 140px;
+	}
+
+	/*-----------*/
+
+	
+
+	/*Slider*/
+	#building-slider {
+    	padding: 80px 0;
+	}
+	#building-slider .wrapper {
+    	height: 35vh;
+	}
+	#building-slider .wrapper .buttons-wrapper button {
+	    font-size: 50px;
+	    margin: 15px;
+	}
+
+	/*----------*/
+
+	/*ABOUT*/
+	.about-wrapper {
+    	padding: 78px 5% 40px 10%;
+	}
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media screen and (max-width: 991.98px) { 
+	/*Navigation*/
+
+	#main-nav .wrapper{
+		align-items: center;
+	}
+	.brand-logo{
+		height: auto;
+		display: inline-block;
+	}
+	#main-nav .wrapper .brand-logo img{
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+	#main-nav .wrapper .inner-nav-item-wrapper{
+		flex-direction: column-reverse;
+	}
+	#main-nav .wrapper .language-switcher{
+		justify-content: flex-end;
+		margin-bottom: 30px;
+	}
+	#main-nav .wrapper .inner-nav-item-wrapper ul:first-of-type {
+		margin-right: 0;
+	}
+
+	/*----------*/
+
+	/*Building*/
+
+	#building {
+	    margin-top: 100px;
+	}
+	#building .wrapper .building-wrapper {
+   		 padding-bottom: 120px;
+	}
+
+	/*----------*/
+
+
+
+	/*slider*/
+
+	#building-slider .wrapper .buttons-wrapper h4 {
+    	margin-top: 0px;
+	}
+	#building-slider {
+	    padding: 50px 0;
+	}
+	#building-slider .wrapper .buttons-wrapper button {
+	    font-size: 40px;
+	}
+	/*----------*/
+
+	#about-us .about-wrapper {
+    	padding: 50px 5% 20px 10%;
+	}
+
+	/*Footer*/
+
+	.owl-logo{
+		height: 120px;
+		width: 120px;
+	}
+
+	/*----------*/
+ }
+
+/* Small devices (landscape phones, less than 768px)*/
+@media screen and (max-width: 767.98px) { 
+	/* Building */
+
+	#building {
+	    margin-top: 50px;
+	}
+	#building .wrapper .building-wrapper {
+   		 padding-bottom: 95px;
+	}
+
+	/*----------*/
+
+	/*Navigation*/
+
+	#main-nav .wrapper .language-switcher{
+		margin-bottom: 10px;
+	}
+	#main-nav .wrapper .language-switcher a{
+		font-size: 16px;
+	}
+	#main-nav .wrapper .inner-nav-item-wrapper .floor-wrapper a{
+		font-size: 16px;
+	}
+	#main-nav .wrapper .floor-wrapper li {
+	    padding: 0 15px;
+	}
+	#main-nav .wrapper .floor-wrapper::after{
+		top:45px;
+	}
+	#main-nav .wrapper .floor-wrapper li:first-of-type {
+    	padding-left: 0px;
+	}
+
+	/*----------*/
+
+
+
+	/*Slider*/
+
+	.floor-3-wrapper svg {
+        max-height: 250px;
+    } 
+    #building-slider .wrapper .buttons-wrapper button {
+	    font-size: 40px;
+	    margin: 7px;
+	}
+	#building-slider .wrapper {
+		height: 28vh;
+		max-width: 90%;
+	}
+	#building-slider {
+    	padding: 25px 0;
+	}
+	h4 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+	}
+
+	/*----------*/
+
+	/*About*/
+
+	#about-us .about-wrapper {
+    padding: 30px 5% 10px 5%;
+	}
+
+	/*----------*/
+
+	/*Map*/
+	#location-map .map-wrapper {
+	    height: 330px;
+	}
+
+	/*Footer*/
+
+	.footer {
+	    justify-content: space-around;
+	    position: relative;
+		align-items: flex-end;
+		padding: 25px 10px
+	}
+	.contact-details {
+    	flex-direction: column;
+	}
+	.footer-logo {
+		position: absolute;
+		top: 30px;
+		right: 17%;
+	    color: #cecece;
+	    font-size: 26px;
+	}
+	.details-first-item {
+    	margin-bottom: 0px;
+	}
+
+	/*----------*/
+
+	/*Popup*/
+	section#registration-popup .wrapper {
+	    width: 95%;
+	}
+	/*----------*/
+
+ }
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media screen and (max-width: 575.98px) { 
+
+	/*Building*/
+
+	#building {
+	    margin-top: 35px;
+	}
+	#building .wrapper .building-wrapper {
+   		 padding-bottom: 75px;
+	}
+	/*----------*/
+
+	/*Navigation*/
+
+	#main-nav .wrapper .inner-nav-item-wrapper .floor-wrapper {
+	    display: none;
+	}
+	.floor-wrapper-mobile{
+		display: flex;
+	}
+
+	/*----------*/
+
+	/*Slider*/
+
+    #building-slider .wrapper .buttons-wrapper button {
+	    font-size: 22px;
+	    margin: 5px;
+	}
+	.floor-title{
+	font-size: 16px;
+	}
+	h4 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+	}
+	#building-slider .wrapper {
+    	height: 20vh;
+	}
+	/*----------*/
+
+	/*About*/
+
+	.about-wrapper {
+    	padding: 20px 5% 5px 5%;
+	}
+	#location-map .map-wrapper {
+    	height: 260px;
+	}
+
+	/*----------*/
+
+	/*Footer*/
+
+	.footer{
+		flex-direction: column;
+		align-items: center;
+		padding: 10px 10px;
+	}
+	.contact-details {
+    	align-items: center;
+	}
+	.contact-details > div:first-child {
+    	margin-right: 0px;
+	}
+	.contact-details div{
+		text-align: center;
+		margin-bottom: 5px;
+	}
+	#send-email {
+    	font-size: 18px;
+    	margin-top: 10px;
+	}
+	.footer-logo{
+		position:static;
+	}
+
+	/*----------*/
+
+
+	/*Popup*/
+	section#registration-popup .wrapper, section#registration-popup #popup{
+		width: 100%;
+		height: 100vh;
+	}
+	section#registration-popup #popup .logo{
+		display:none;
+	}
+	.logic-logo{
+	position: absolute;
+	width:50px;
+	height: 50px;
+	top: 10px;
+	left: 10px;
+		display: block;
+	}
+
+}

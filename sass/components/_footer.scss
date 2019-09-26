@@ -1,0 +1,48 @@
+
+.footer{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px 25px;
+	background-color: #565656;
+}
+
+.contact-details{
+	display: flex;
+}
+.contact-details a{
+	color: #cecece;
+	font-size: 22px;
+	font-weight: 500;
+}
+.contact-details > div:first-child{
+	margin-right:50px;
+}
+.details-first-item{
+	margin-bottom: 20px;
+}
+.details-title{
+	display: block;
+	color: #59BAFC ;
+	font-size: 30px;
+	margin-bottom: 5px;
+}
+#send-email{
+	cursor: pointer;
+	outline: none;
+	border: none;
+	color: #fff;
+	font-size: 26px;
+	background-color: #59BAFC;
+	padding: 15px 10px;
+	border-radius: 10px;
+
+	font-family: "MyFont", Arial, sans-serif;
+	font-weight: normal;
+    font-style: normal;
+}
+
+.owl-logo{
+	height: 300px;
+	width: 300px;
+}

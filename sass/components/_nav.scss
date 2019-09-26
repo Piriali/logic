@@ -1,0 +1,129 @@
+#main-nav {
+
+    width: 100%;
+    margin-top: 20px;
+    
+    .wrapper {
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 100%;
+
+        .brand-logo img {
+            height: 100%;
+        }
+
+        .inner-nav-item-wrapper {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .inner-nav-item-wrapper ul:first-of-type {
+            margin-right: 40px;
+        }
+
+        .floor-wrapper {
+            display: flex;
+            align-items: center;
+            position: relative;
+
+            &::after {
+                position: absolute;
+                content: "";
+                width: 100%;
+                height: 1px;
+                background-color: black;
+                top: 50px;
+                left: 0;
+            }
+
+            li {
+                padding: 0 20px;
+                position: relative;
+ 
+            }
+
+            li:first-of-type {
+                padding-left: 30px;
+            }
+
+            li:not(:last-of-type) {
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    width: 1px;
+                    height: 10px;
+                    background-color: black;
+                    top: 17px;
+                    right: 0;
+                }
+            }
+        }
+
+        .floor-wrapper li:not(:last-of-type) {
+            margin-right: 5px;
+        }
+
+        .language-switcher {
+            display: flex;
+            align-items: center;
+
+            // Switcher GE https://i.ibb.co/SwhtB91/switcher-eng.png
+            // Switcher ENG https://i.ibb.co/0t3kHNk/switcher-ge.png
+
+            span {
+                margin: 0 10px;
+            }
+
+            span img {
+                width: 30px;
+            }
+            
+        }
+
+    }
+}
+.floor-wrapper-mobile{
+     display: none;
+            align-items: center;
+            justify-content: center;
+            margin: 30px 5% 0;
+            position: relative;
+            text-align: center;
+
+            &::after {
+                position: absolute;
+                content: "";
+                width: 100%;
+                height: 1px;
+                background-color: black;
+                top: 50px;
+                left: 0;
+            }
+
+            li {
+                padding: 0 10px;
+                position: relative;
+ 
+            }
+
+            li:not(:last-of-type) {
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    width: 1px;
+                    height: 10px;
+                    background-color: black;
+                    top: 8px;
+                    right: 0;
+                }
+            }
+            padding-inline-start: 0px;
+}
+@media(max-width:600px) {
+    
+}

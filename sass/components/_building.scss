@@ -1,0 +1,25 @@
+#building {
+    width: 100%;
+    margin-top: 200px;
+
+
+    .wrapper {
+        position: relative;
+        max-width: 80%;
+        margin: auto;
+
+        .building-wrapper{
+             padding-bottom: 200px;
+        }
+        .img-wrapper {
+            // border: 1px solid green;
+            position: absolute;
+            bottom: 0;
+
+            img {
+                width: 100%;
+            }
+        }
+
+    }
+}
