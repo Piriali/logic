@@ -1,8 +1,25 @@
 
+
+/*   GA DZEN REGULAR  */
 @font-face {
-  font-family: "MyFont";
+  font-family: "Ga-dzen";
   src: url("fonts/GA-dzen-Regular.otf");
   src:
-    url("fonts/Sandro-Regular.ttf"),
     url("fonts/GA-dzen-Regular.otf")
 };
+
+/* SANDRO */
+@font-face {
+  font-family: "Sandro";
+  src: url("fonts/Sandro-Regular.ttf");
+  src:
+    url("fonts/Sandro-Regular.ttf")
+};
+
+/* BPG BANNER CAPS */
+/* @font-face {
+  font-family: "Bpg";
+  src: url("fonts/bpg_banner_caps.ttf");
+  src:
+    url("fonts/bpg_banner_caps.ttf")
+}; */
